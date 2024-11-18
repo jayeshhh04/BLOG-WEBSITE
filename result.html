@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Blog Post Result</title>
+</head>
+<body>
+    <h1>Post Summary</h1>
+
+    <p><strong>Summary:</strong> {{ post.summary }}</p>
+    <p><strong>Tags:</strong> {{ post.tags }}</p>
+    <p><strong>Content:</strong> {{ post.content }}</p>
+
+    <a href="{{ url_for('index') }}">Create Another Post</a>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+h1 {
+    color: #333;
+    text-align: center; /* Centered heading */
+}
+
+textarea {
+    width: 100%;
+    height: 150px; /* Adjusted height */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Slightly darker color on hover */
+}
+
+.flash-message {
+    color: red; /* Flash messages are styled in red for errors */
+    text-align: center;
+}
+
+
+.view-blogs-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.view-blogs-button:hover {
+    background-color: #45a049;
+}
